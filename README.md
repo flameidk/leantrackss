@@ -12,7 +12,7 @@ Logged meals now store the chosen recipe and its calorie/protein estimate so sel
 
 - All 15 recipe estimates are calculated from explicit gram weights in `nutrition.js`; the source values and serving assumptions are recorded in `nutrition-reference.json`.
 - Generic foods use USDA SR28 data. Meat and potatoes are weighed raw, rice and black beans cooked. Dairy, bread, tortillas, sauces and supplements vary by brand; whey assumes 110 kcal and 25 g protein per 30 g. Values are estimates, not analysis of the actual plate.
-- Food photos show labelled recipe ingredients, not a claim that a stock dish matches the recipe or portion.
+- Food photos show finished dishes as labelled serving examples. Toppings, ingredients and portions can vary; the recipe and nutrient breakdown determine the logged values.
 - Workout photos are mapped to explicit exercise variants and preserve the whole setup. Mobility and optional walking are labelled as examples. Custom exercises get no guessed image.
 - Hanging knee raises link to a matching demonstration guide because an exact locally reusable photo was not verified.
 - Photo provenance and licenses are recorded in `photos/sources.json`. Unused older images may remain in the repository but are not displayed or precached.

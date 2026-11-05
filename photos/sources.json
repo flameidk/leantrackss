@@ -3,7 +3,7 @@
     "Pexels",
     "Free Exercise DB"
   ],
-  "note": "Food images are ingredient references, not claimed photographs of prepared recipes or measured portions. Workout photos use explicit exercise variants; no guessed fallback for custom exercises.",
+  "note": "Finished-meal photos are serving examples, not claims about exact ingredients, portions or nutrient values. Tracked nutrition follows the recipe quantities. Workout demonstrations are explicitly matched to exercise variants.",
   "photos": [
     {
       "file": "cable-crunch-0.jpg",
@@ -246,130 +246,95 @@
       "exercise": "Child's Pose"
     },
     {
-      "file": "ingredient-eggs.jpg",
-      "ingredient": "eggs",
-      "source": "https://www.pexels.com/photo/6294135/",
+      "file": "oats.jpg",
+      "source": "https://www.pexels.com/photo/10006131/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-oats.jpg",
-      "ingredient": "oats",
-      "source": "https://www.pexels.com/photo/10883628/",
+      "file": "yogurt.jpg",
+      "source": "https://www.pexels.com/photo/10421049/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-strawberries.jpg",
-      "ingredient": "strawberries",
-      "source": "https://www.pexels.com/photo/37240853/",
+      "file": "eggs.jpg",
+      "source": "https://www.pexels.com/photo/28672116/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-yogurt.jpg",
-      "ingredient": "yogurt",
-      "source": "https://www.pexels.com/photo/10809259/",
+      "file": "chickenrice.jpg",
+      "source": "https://www.pexels.com/photo/6066052/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-chicken.jpg",
-      "ingredient": "chicken",
-      "source": "https://www.pexels.com/photo/6107730/",
+      "file": "chickenpotato.jpg",
+      "source": "https://www.pexels.com/photo/31233881/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-rice.jpg",
-      "ingredient": "rice",
-      "source": "https://www.pexels.com/photo/8923092/",
+      "file": "wrap.jpg",
+      "source": "https://www.pexels.com/photo/10837796/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-broccoli.jpg",
-      "ingredient": "broccoli",
-      "source": "https://www.pexels.com/photo/30893315/",
+      "file": "pasta.jpg",
+      "source": "https://www.pexels.com/photo/28314074/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-potatoes.jpg",
-      "ingredient": "potatoes",
-      "source": "https://www.pexels.com/photo/33653570/",
+      "file": "chili.jpg",
+      "source": "https://www.pexels.com/photo/15881322/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-beans.jpg",
-      "ingredient": "beans",
-      "source": "https://www.pexels.com/photo/31672561/",
+      "file": "shake.jpg",
+      "source": "https://www.pexels.com/photo/20473743/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-spinach.jpg",
-      "ingredient": "spinach",
-      "source": "https://www.pexels.com/photo/10487663/",
+      "file": "cottage.jpg",
+      "source": "https://www.pexels.com/photo/32065589/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-banana.jpg",
-      "ingredient": "banana",
-      "source": "https://www.pexels.com/photo/36917168/",
+      "file": "meal-taco-bowl.jpg",
+      "source": "https://www.pexels.com/photo/10696501/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-apple.jpg",
-      "ingredient": "apple",
-      "source": "https://www.pexels.com/photo/10112870/",
+      "file": "meal-toast.jpg",
+      "source": "https://www.pexels.com/photo/11509840/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     },
     {
-      "file": "ingredient-almonds.jpg",
-      "ingredient": "almonds",
-      "source": "https://www.pexels.com/photo/4051132/",
+      "file": "meal-yogurt-nutbutter.jpg",
+      "source": "https://www.pexels.com/photo/13887557/",
       "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "file": "ingredient-cottage.jpg",
-      "ingredient": "cottage",
-      "source": "https://www.pexels.com/photo/37907507/",
-      "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "file": "ingredient-bread.jpg",
-      "ingredient": "bread",
-      "source": "https://www.pexels.com/photo/2067631/",
-      "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "file": "ingredient-peanutbutter.jpg",
-      "ingredient": "peanutbutter",
-      "source": "https://www.pexels.com/photo/5149349/",
-      "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "file": "ingredient-pasta.jpg",
-      "ingredient": "pasta",
-      "source": "https://www.pexels.com/photo/9821771/",
-      "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "file": "ingredient-lettuce.jpg",
-      "ingredient": "lettuce",
-      "source": "https://www.pexels.com/photo/38413473/",
-      "provider": "Pexels",
-      "license": "https://www.pexels.com/license/"
+      "license": "https://www.pexels.com/license/",
+      "use": "Finished-dish serving example; ingredients, toppings and portions may vary from the tracked recipe."
     }
   ],
   "linkedGuide": {
