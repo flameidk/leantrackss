@@ -1,0 +1,163 @@
+{
+  "description": "Muscle groups for the explicitly shown exercise variants. Major muscle groups only; involvement varies by technique. Cardio and mobility are labelled separately from strength exercises.",
+  "sourceBase": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/",
+  "groups": {
+    "chest": {
+      "primary": [
+        "Chest"
+      ],
+      "secondary": [
+        "Front shoulders",
+        "Triceps"
+      ],
+      "source": "Leverage_Chest_Press"
+    },
+    "incline": {
+      "primary": [
+        "Upper chest"
+      ],
+      "secondary": [
+        "Front shoulders",
+        "Triceps"
+      ],
+      "source": "Incline_Dumbbell_Press"
+    },
+    "triceps": {
+      "primary": [
+        "Triceps"
+      ],
+      "secondary": [],
+      "source": "Triceps_Pushdown_-_Rope_Attachment"
+    },
+    "pull": {
+      "primary": [
+        "Lats (sides of back)"
+      ],
+      "secondary": [
+        "Biceps",
+        "Mid-back",
+        "Rear shoulders"
+      ],
+      "source": "Wide-Grip_Lat_Pulldown"
+    },
+    "row": {
+      "primary": [
+        "Mid-back"
+      ],
+      "secondary": [
+        "Lats",
+        "Biceps",
+        "Rear shoulders"
+      ],
+      "source": "Seated_Cable_Rows"
+    },
+    "curl": {
+      "primary": [
+        "Biceps"
+      ],
+      "secondary": [
+        "Forearms"
+      ],
+      "source": "Dumbbell_Bicep_Curl"
+    },
+    "legpress": {
+      "primary": [
+        "Quads (front thighs)"
+      ],
+      "secondary": [
+        "Glutes",
+        "Hamstrings",
+        "Calves"
+      ],
+      "source": "Leg_Press"
+    },
+    "legcurl": {
+      "primary": [
+        "Hamstrings (back thighs)"
+      ],
+      "secondary": [],
+      "source": "Lying_Leg_Curls"
+    },
+    "calf": {
+      "primary": [
+        "Calves"
+      ],
+      "secondary": [],
+      "source": "Standing_Calf_Raises"
+    },
+    "cable": {
+      "primary": [
+        "Abs (rectus abdominis)"
+      ],
+      "secondary": [],
+      "source": "Cable_Crunch"
+    },
+    "shoulder": {
+      "primary": [
+        "Front & side shoulders"
+      ],
+      "secondary": [
+        "Triceps"
+      ],
+      "source": "Dumbbell_Shoulder_Press"
+    },
+    "squat": {
+      "primary": [
+        "Quads (front thighs)"
+      ],
+      "secondary": [
+        "Glutes",
+        "Hamstrings",
+        "Calves",
+        "Shoulders (holding weight)"
+      ],
+      "source": "Goblet_Squat"
+    },
+    "deadlift": {
+      "primary": [
+        "Hamstrings"
+      ],
+      "secondary": [
+        "Glutes",
+        "Lower back (stability)",
+        "Calves"
+      ],
+      "source": "Romanian_Deadlift"
+    },
+    "knee": {
+      "primary": [
+        "Abs",
+        "Hip flexors"
+      ],
+      "secondary": [
+        "Forearms (grip)"
+      ],
+      "source": "https://www.muscleandstrength.com/exercises/hanging-knee-raise.html",
+      "additionalSource": "https://www.acefitness.org/resources/pros/expert-articles/5452/6-exercises-for-a-stronger-core/"
+    },
+    "walk": {
+      "kind": "cardio",
+      "primary": [
+        "Quads",
+        "Glutes",
+        "Hamstrings",
+        "Calves"
+      ],
+      "secondary": [],
+      "note": "Walking / cardiovascular endurance",
+      "source": "Walking_Treadmill"
+    },
+    "mobility": {
+      "kind": "mobility",
+      "primary": [
+        "Lower back",
+        "Mid-back",
+        "Glutes"
+      ],
+      "secondary": [],
+      "note": "Gentle range of motion and stretching",
+      "source": "Cat_Stretch",
+      "additionalSource": "Childs_Pose"
+    }
+  }
+}
