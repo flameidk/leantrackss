@@ -1,6 +1,6 @@
 // Bump the cache when publishing a new app version. Saved user data lives in localStorage.
-const CACHE='leantrack-v4';
-const FILES=['./','./index.html','./dashboard.css','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
+const CACHE='leantrack-v5';
+const FILES=['./','./index.html','./dashboard.css','./visuals.js','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('leantrack-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{
