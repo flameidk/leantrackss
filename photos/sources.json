@@ -110,6 +110,22 @@
     {
       "file": "deadlift.jpg",
       "source": "https://www.pexels.com/photo/4853280/"
+    },
+    {
+      "file": "cable-crunch-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Cable_Crunch",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crunch/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Cable Crunch"
+    },
+    {
+      "file": "cable-crunch-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Cable_Crunch",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crunch/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Cable Crunch"
     }
   ]
 }
