@@ -1,0 +1,40 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const vm=require('node:vm');
+const root=path.resolve(__dirname,'..');
+const stored=new Map();
+const context=vm.createContext({console,Date,setTimeout:()=>0,navigator:{},location:{protocol:'http:'},localStorage:{getItem:k=>stored.get(k)??null,setItem:(k,v)=>stored.set(k,v)},document:{getElementById:()=>({style:{}})},URL,Blob});
+for(const file of ['backup.js','nutrition.js','visuals.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context);
+let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const app=html.split('<script>')[1].split('</script>')[0].replace(/\}render\(\);/,'}');
+vm.runInContext(app,context);
+vm.runInContext('render=()=>{}',context);
+const read=code=>JSON.parse(vm.runInContext('JSON.stringify('+code+')',context));
+assert.deepEqual(read('[meals.breakfast.cal,meals.breakfast.p,meals.yogurt.cal,meals.yogurt.p,meals.chickenrice.cal,meals.chickenrice.p]'),[458,39,543,46,643,60]);
+assert.equal(read('Object.keys(RECIPE_PORTIONS).length'),15);
+assert.equal(read('exercises.flat().every(x=>workoutReference(x[0])!==null)'),true);
+assert.equal(read('workoutReference("Leg curl").key'),'legcurl');
+assert.equal(read('workoutReference("Chest press machine").key'),'chest');
+assert.equal(read('workoutVisual("Unknown custom lift").includes("<img")'),false);
+assert.equal(read('workoutVisual("Hanging knee raises").includes("hanging-knee-raise.html")'),true);
+assert.equal(read('Object.values(MEAL_PHOTOS).flat().every(k=>typeof INGREDIENT_PHOTO_LABELS[k]==="string")'),true);
+vm.runInContext('day=2;checkMeal(0)',context);
+assert.equal(read('state.mealEntries[dateKey()+":0"].recipeKey'),'potatoegg');
+assert.deepEqual(read('totals()'),{cal:473,p:37});
+vm.runInContext('state.swaps["2:0"]="shake"',context);
+assert.deepEqual(read('totals()'),{cal:473,p:37});
+vm.runInContext('checkMeal(0)',context);
+assert.equal(read('state.mealEntries[dateKey()+":0"].recipeKey'),'shake');
+assert.deepEqual(read('totals()'),{cal:215,p:26});
+const backup=read('({app:"LeanTracks",version:1,state})');
+context.inputBackup=backup;
+assert.equal(read('validateBackup(inputBackup).targets.cal'),2200);
+const bad=JSON.parse(JSON.stringify(backup));bad.state.weights[0].weight=-10;context.badBackup=bad;
+assert.throws(()=>vm.runInContext('validateBackup(badBackup)',context),/invalid data/);
+const sw=fs.readFileSync(path.join(root,'sw.js'),'utf8');
+const files=JSON.parse(sw.match(/const FILES=(\[[^;]+\]);/)[1]);
+for(const file of files){const relative=file.split('?')[0];assert(fs.existsSync(path.join(root,relative==='./'?'index.html':relative)),file+' must exist')}
+for(const name of ['dashboard.css','visuals.js','nutrition.js','backup.js']){assert(html.includes('./'+name+'?v=10'));assert(files.includes('./'+name+'?v=10'))}
+for(const {file}of JSON.parse(fs.readFileSync(path.join(root,'photos/sources.json'),'utf8')).photos){const bytes=fs.readFileSync(path.join(root,'photos',file));assert(bytes.length>1000,file+' must not be empty');assert.equal(bytes.readUInt16BE(0),0xffd8,file+' must be a JPEG')}
+console.log('PASS: recipe estimates, every built-in workout mapping, honest custom/missing visuals, selected-meal snapshots, backup validation, versioned offline assets and all active photo files.');

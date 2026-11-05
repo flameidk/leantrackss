@@ -1,116 +1,10 @@
 {
-  "provider": "Pexels",
-  "license": "https://www.pexels.com/license/",
-  "note": "Stock photos are serving and workout inspiration; recipes and logged values remain the source for meal details.",
+  "providers": [
+    "Pexels",
+    "Free Exercise DB"
+  ],
+  "note": "Food images are ingredient references, not claimed photographs of prepared recipes or measured portions. Workout photos use explicit exercise variants; no guessed fallback for custom exercises.",
   "photos": [
-    {
-      "file": "oats.jpg",
-      "source": "https://www.pexels.com/photo/10006131/"
-    },
-    {
-      "file": "eggs.jpg",
-      "source": "https://www.pexels.com/photo/28672116/"
-    },
-    {
-      "file": "yogurt.jpg",
-      "source": "https://www.pexels.com/photo/10421049/"
-    },
-    {
-      "file": "chickenrice.jpg",
-      "source": "https://www.pexels.com/photo/6066052/"
-    },
-    {
-      "file": "chickenpotato.jpg",
-      "source": "https://www.pexels.com/photo/31233881/"
-    },
-    {
-      "file": "wrap.jpg",
-      "source": "https://www.pexels.com/photo/10837796/"
-    },
-    {
-      "file": "taco.jpg",
-      "source": "https://www.pexels.com/photo/2087748/"
-    },
-    {
-      "file": "pasta.jpg",
-      "source": "https://www.pexels.com/photo/28314074/"
-    },
-    {
-      "file": "chili.jpg",
-      "source": "https://www.pexels.com/photo/15881322/"
-    },
-    {
-      "file": "shake.jpg",
-      "source": "https://www.pexels.com/photo/20473743/"
-    },
-    {
-      "file": "cottage.jpg",
-      "source": "https://www.pexels.com/photo/32065589/"
-    },
-    {
-      "file": "toast.jpg",
-      "source": "https://www.pexels.com/photo/37377280/"
-    },
-    {
-      "file": "chest.jpg",
-      "source": "https://www.pexels.com/photo/4853339/"
-    },
-    {
-      "file": "incline.jpg",
-      "source": "https://www.pexels.com/photo/29526383/"
-    },
-    {
-      "file": "triceps.jpg",
-      "source": "https://www.pexels.com/photo/6243176/"
-    },
-    {
-      "file": "pull.jpg",
-      "source": "https://www.pexels.com/photo/6539827/"
-    },
-    {
-      "file": "row.jpg",
-      "source": "https://www.pexels.com/photo/4162482/"
-    },
-    {
-      "file": "curl.jpg",
-      "source": "https://www.pexels.com/photo/6550875/"
-    },
-    {
-      "file": "legpress.jpg",
-      "source": "https://www.pexels.com/photo/6844939/"
-    },
-    {
-      "file": "legcurl.jpg",
-      "source": "https://www.pexels.com/photo/28731788/"
-    },
-    {
-      "file": "calf.jpg",
-      "source": "https://www.pexels.com/photo/13965339/"
-    },
-    {
-      "file": "core.jpg",
-      "source": "https://www.pexels.com/photo/6295719/"
-    },
-    {
-      "file": "treadmill.jpg",
-      "source": "https://www.pexels.com/photo/3888343/"
-    },
-    {
-      "file": "mobility.jpg",
-      "source": "https://www.pexels.com/photo/6388355/"
-    },
-    {
-      "file": "shoulder.jpg",
-      "source": "https://www.pexels.com/photo/7289236/"
-    },
-    {
-      "file": "squat.jpg",
-      "source": "https://www.pexels.com/photo/24809799/"
-    },
-    {
-      "file": "deadlift.jpg",
-      "source": "https://www.pexels.com/photo/4853280/"
-    },
     {
       "file": "cable-crunch-0.jpg",
       "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Cable_Crunch",
@@ -126,6 +20,361 @@
       "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
       "provider": "Free Exercise DB",
       "exercise": "Cable Crunch"
+    },
+    {
+      "file": "verified-chest-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Leverage_Chest_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Chest_Press/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Leverage Chest Press"
+    },
+    {
+      "file": "verified-chest-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Leverage_Chest_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Chest_Press/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Leverage Chest Press"
+    },
+    {
+      "file": "verified-incline-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Incline_Dumbbell_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Press/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Incline Dumbbell Press"
+    },
+    {
+      "file": "verified-incline-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Incline_Dumbbell_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Dumbbell_Press/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Incline Dumbbell Press"
+    },
+    {
+      "file": "verified-triceps-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Triceps_Pushdown_-_Rope_Attachment",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Pushdown_-_Rope_Attachment/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Triceps Pushdown - Rope Attachment"
+    },
+    {
+      "file": "verified-triceps-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Triceps_Pushdown_-_Rope_Attachment",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Triceps_Pushdown_-_Rope_Attachment/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Triceps Pushdown - Rope Attachment"
+    },
+    {
+      "file": "verified-pull-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Wide-Grip_Lat_Pulldown",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Wide-Grip Lat Pulldown"
+    },
+    {
+      "file": "verified-pull-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Wide-Grip_Lat_Pulldown",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Lat_Pulldown/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Wide-Grip Lat Pulldown"
+    },
+    {
+      "file": "verified-row-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Seated_Cable_Rows",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Cable_Rows/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Seated Cable Rows"
+    },
+    {
+      "file": "verified-row-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Seated_Cable_Rows",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Cable_Rows/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Seated Cable Rows"
+    },
+    {
+      "file": "verified-curl-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Dumbbell_Bicep_Curl",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bicep_Curl/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Dumbbell Bicep Curl"
+    },
+    {
+      "file": "verified-curl-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Dumbbell_Bicep_Curl",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Bicep_Curl/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Dumbbell Bicep Curl"
+    },
+    {
+      "file": "verified-legpress-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Leg_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Leg Press"
+    },
+    {
+      "file": "verified-legpress-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Leg_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Press/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Leg Press"
+    },
+    {
+      "file": "verified-legcurl-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Lying_Leg_Curls",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Leg_Curls/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Lying Leg Curls"
+    },
+    {
+      "file": "verified-legcurl-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Lying_Leg_Curls",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Leg_Curls/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Lying Leg Curls"
+    },
+    {
+      "file": "verified-calf-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Standing_Calf_Raises",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Calf_Raises/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Standing Calf Raises"
+    },
+    {
+      "file": "verified-calf-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Standing_Calf_Raises",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Calf_Raises/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Standing Calf Raises"
+    },
+    {
+      "file": "verified-shoulder-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Dumbbell_Shoulder_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Shoulder_Press/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Dumbbell Shoulder Press"
+    },
+    {
+      "file": "verified-shoulder-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Dumbbell_Shoulder_Press",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Shoulder_Press/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Dumbbell Shoulder Press"
+    },
+    {
+      "file": "verified-squat-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Goblet_Squat",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Goblet_Squat/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Goblet Squat"
+    },
+    {
+      "file": "verified-squat-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Goblet_Squat",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Goblet_Squat/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Goblet Squat"
+    },
+    {
+      "file": "verified-deadlift-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Romanian_Deadlift",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Romanian_Deadlift/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Romanian Deadlift"
+    },
+    {
+      "file": "verified-deadlift-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Romanian_Deadlift",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Romanian_Deadlift/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Romanian Deadlift"
+    },
+    {
+      "file": "verified-walk-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Walking_Treadmill",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Walking_Treadmill/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Walking, Treadmill"
+    },
+    {
+      "file": "verified-walk-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Walking_Treadmill",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Walking_Treadmill/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Walking, Treadmill"
+    },
+    {
+      "file": "verified-mobility-1.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Cat_Stretch",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cat_Stretch/1.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Cat Stretch"
+    },
+    {
+      "file": "verified-child-0.jpg",
+      "source": "https://github.com/yuhonas/free-exercise-db/tree/main/exercises/Childs_Pose",
+      "original": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Childs_Pose/0.jpg",
+      "license": "https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md",
+      "provider": "Free Exercise DB",
+      "exercise": "Child's Pose"
+    },
+    {
+      "file": "ingredient-eggs.jpg",
+      "ingredient": "eggs",
+      "source": "https://www.pexels.com/photo/6294135/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-oats.jpg",
+      "ingredient": "oats",
+      "source": "https://www.pexels.com/photo/10883628/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-strawberries.jpg",
+      "ingredient": "strawberries",
+      "source": "https://www.pexels.com/photo/37240853/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-yogurt.jpg",
+      "ingredient": "yogurt",
+      "source": "https://www.pexels.com/photo/10809259/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-chicken.jpg",
+      "ingredient": "chicken",
+      "source": "https://www.pexels.com/photo/6107730/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-rice.jpg",
+      "ingredient": "rice",
+      "source": "https://www.pexels.com/photo/8923092/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-broccoli.jpg",
+      "ingredient": "broccoli",
+      "source": "https://www.pexels.com/photo/30893315/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-potatoes.jpg",
+      "ingredient": "potatoes",
+      "source": "https://www.pexels.com/photo/33653570/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-beans.jpg",
+      "ingredient": "beans",
+      "source": "https://www.pexels.com/photo/31672561/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-spinach.jpg",
+      "ingredient": "spinach",
+      "source": "https://www.pexels.com/photo/10487663/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-banana.jpg",
+      "ingredient": "banana",
+      "source": "https://www.pexels.com/photo/36917168/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-apple.jpg",
+      "ingredient": "apple",
+      "source": "https://www.pexels.com/photo/10112870/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-almonds.jpg",
+      "ingredient": "almonds",
+      "source": "https://www.pexels.com/photo/4051132/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-cottage.jpg",
+      "ingredient": "cottage",
+      "source": "https://www.pexels.com/photo/37907507/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-bread.jpg",
+      "ingredient": "bread",
+      "source": "https://www.pexels.com/photo/2067631/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-peanutbutter.jpg",
+      "ingredient": "peanutbutter",
+      "source": "https://www.pexels.com/photo/5149349/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-pasta.jpg",
+      "ingredient": "pasta",
+      "source": "https://www.pexels.com/photo/9821771/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "file": "ingredient-lettuce.jpg",
+      "ingredient": "lettuce",
+      "source": "https://www.pexels.com/photo/38413473/",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/"
     }
-  ]
+  ],
+  "linkedGuide": {
+    "exercise": "Hanging knee raises",
+    "source": "https://www.muscleandstrength.com/exercises/hanging-knee-raise.html",
+    "reason": "No locally licensed exact matching photo verified."
+  }
 }
