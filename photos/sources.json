@@ -1,0 +1,115 @@
+{
+  "provider": "Pexels",
+  "license": "https://www.pexels.com/license/",
+  "note": "Stock photos are serving and workout inspiration; recipes and logged values remain the source for meal details.",
+  "photos": [
+    {
+      "file": "oats.jpg",
+      "source": "https://www.pexels.com/photo/10006131/"
+    },
+    {
+      "file": "eggs.jpg",
+      "source": "https://www.pexels.com/photo/28672116/"
+    },
+    {
+      "file": "yogurt.jpg",
+      "source": "https://www.pexels.com/photo/10421049/"
+    },
+    {
+      "file": "chickenrice.jpg",
+      "source": "https://www.pexels.com/photo/6066052/"
+    },
+    {
+      "file": "chickenpotato.jpg",
+      "source": "https://www.pexels.com/photo/31233881/"
+    },
+    {
+      "file": "wrap.jpg",
+      "source": "https://www.pexels.com/photo/10837796/"
+    },
+    {
+      "file": "taco.jpg",
+      "source": "https://www.pexels.com/photo/2087748/"
+    },
+    {
+      "file": "pasta.jpg",
+      "source": "https://www.pexels.com/photo/28314074/"
+    },
+    {
+      "file": "chili.jpg",
+      "source": "https://www.pexels.com/photo/15881322/"
+    },
+    {
+      "file": "shake.jpg",
+      "source": "https://www.pexels.com/photo/20473743/"
+    },
+    {
+      "file": "cottage.jpg",
+      "source": "https://www.pexels.com/photo/32065589/"
+    },
+    {
+      "file": "toast.jpg",
+      "source": "https://www.pexels.com/photo/37377280/"
+    },
+    {
+      "file": "chest.jpg",
+      "source": "https://www.pexels.com/photo/4853339/"
+    },
+    {
+      "file": "incline.jpg",
+      "source": "https://www.pexels.com/photo/29526383/"
+    },
+    {
+      "file": "triceps.jpg",
+      "source": "https://www.pexels.com/photo/6243176/"
+    },
+    {
+      "file": "pull.jpg",
+      "source": "https://www.pexels.com/photo/6539827/"
+    },
+    {
+      "file": "row.jpg",
+      "source": "https://www.pexels.com/photo/4162482/"
+    },
+    {
+      "file": "curl.jpg",
+      "source": "https://www.pexels.com/photo/6550875/"
+    },
+    {
+      "file": "legpress.jpg",
+      "source": "https://www.pexels.com/photo/6844939/"
+    },
+    {
+      "file": "legcurl.jpg",
+      "source": "https://www.pexels.com/photo/28731788/"
+    },
+    {
+      "file": "calf.jpg",
+      "source": "https://www.pexels.com/photo/13965339/"
+    },
+    {
+      "file": "core.jpg",
+      "source": "https://www.pexels.com/photo/6295719/"
+    },
+    {
+      "file": "treadmill.jpg",
+      "source": "https://www.pexels.com/photo/3888343/"
+    },
+    {
+      "file": "mobility.jpg",
+      "source": "https://www.pexels.com/photo/6388355/"
+    },
+    {
+      "file": "shoulder.jpg",
+      "source": "https://www.pexels.com/photo/7289236/"
+    },
+    {
+      "file": "squat.jpg",
+      "source": "https://www.pexels.com/photo/24809799/"
+    },
+    {
+      "file": "deadlift.jpg",
+      "source": "https://www.pexels.com/photo/4853280/"
+    }
+  ]
+}
